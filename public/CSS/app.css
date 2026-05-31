@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../IMG/nightsky.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.nav{
+    color: aqua;
+    text-align: center;
+}
+
+label{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;   
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+}
+input[type='text']{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    opacity:80%;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+button{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+p.display{
+    color: white;
+    font-size: 5em;
+}
+
+.containerDisplay{
+    margin-left: 80px;
+    position: relative;
+}
+
+.container{
+    color: white;
+    display: none;
+    margin-left: 80px;
+}
+
+.temp{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: aqua;
+}
+
+.humidity{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(166, 166, 206);
+}
+
+#temp, #pressure, #lon, #time{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(255, 221, 0);
+    margin-left: 10px;
+
+}
+
+#humidity, #wind, #lat{
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgb(166, 166, 206);
+    margin-left: 10px;
+}
+
+.error{
+    color: aliceblue;
+    
+}

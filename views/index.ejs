@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/app.css">
+    <title>WEATHER</title>
+</head>
+<body>
+    
+    <div class="nav">
+        <h1>WEATHER APP</h1> <br>
+        <hr style="color:gray;" width="50%">
+        <hr style="color:rgb(209, 194, 194);" width="30%">
+    </div>
+
+    <div class="containerDisplay">
+        <p class="display"></p>
+    </div>
+
+    <div class="container">
+        <p class="temp">Longitude: <span id="lon"></span></p>
+        <p class="humidity">Latitude: <span id="lat"></span></p>
+        <p class="temp">Temperature: <span id="temp"></span></p>
+        <p class="humidity">Humidity: <span id="humidity"></span></p>
+        <p class="temp">Pressure: <span id="pressure"></span></p>
+        <p class="humidity">Wind: <span id="wind"></span></p>
+        <p class="temp">Timezone: <span id="time"></span></p>
+        <p class="humidity">Country: <span id="country"></span></p>
+        <p class="temp">Province: <span id="province"></span></p>
+        <p class="error"></p>
+    </div>
+
+    <form action="/weather" method="get">
+        <label for="city">City : </label>
+        <input type="text" placeholder="Search City" name="city" id="city">
+        <button type="submit" id="submit">Submit</button>
+    </form>
+   
+
+
+    <script src="/JS/weather.js"></script>
+</body>
+</html>
+    
+</body>
+</html>
